@@ -1,0 +1,28 @@
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%; }
+
+.ontop-map {
+  position: relative;
+  z-index: 1; }
+  .ontop-map .title {
+    position: absolute;
+    font-size: 20px;
+    top: 40px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    padding: 10px; }
+  .ontop-map .menu {
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    right: 0px;
+    font-size: 14px; }
+    .ontop-map .menu a {
+      color: black;
+      margin-left: 20px; }
+
+/*# sourceMappingURL=mapposter.css.map */
